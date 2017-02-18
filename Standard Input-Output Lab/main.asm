@@ -1,3 +1,11 @@
+
+; 2. Read a character from the keyboard without echo. 
+; If the character is a digit, print it on the screen. 
+; If the character is '$', end the current program. 
+; In any other situation, the character is added to 
+; a buffer (i.e. a string) which will be printed on
+; the screen when the program exits.
+
 ASSUME cs:code, ds:data
 
 data segment
